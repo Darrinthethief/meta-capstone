@@ -19,7 +19,7 @@ const Nav = () => {
                     <li><a href="/">Contact Us</a></li>
                 </ul>
 
-                <FontAwesomeIcon fontSize={30} icon={faBars} />
+                <FontAwesomeIcon fontSize={27} icon={faBars} />
             </nav>
         </div>
     );
