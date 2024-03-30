@@ -1,8 +1,16 @@
+import Specials from '../subcomponents/Specials';
+import Testimonials from "../subcomponents/Testimonials";
+import About from "../subcomponents/About";
+
 const Main = () => {
     return (
-        <div>
-            <h1>Main</h1>
-        </div>
+        <>
+            <main>
+                <Specials />
+                <Testimonials />
+                <About />
+            </main>
+        </>
     );
 };
 

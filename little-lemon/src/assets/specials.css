@@ -1,0 +1,32 @@
+.special-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 5rem;
+}
+
+.special-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1000px;
+}
+
+#special-title {
+    font-size: 2.5em;
+    font-weight: 300;
+}
+
+#order-button {
+    font-size: 20px;
+    height: 40px;
+    padding: 4px;
+    border-radius: 5px;
+    font-weight: 450;
+    background-color: #F4CE14;
+}
+
+.menu-container {
+    margin-top: 3rem;
+}

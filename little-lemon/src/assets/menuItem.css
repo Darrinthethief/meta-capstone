@@ -1,0 +1,47 @@
+.menu-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3rem;
+    justify-content: center;
+}
+
+.menu-item {
+    height: 580px;
+    width: 300px;
+    border-radius: 3px;
+    background-color: #d9d9d9;
+}
+
+.menu-photo {
+    height: 250px;
+    width: 300px;
+}
+
+#menu-photo {
+    height: 100%;
+    width: 100%;
+}
+
+.menu-title {
+    font-size: 20px;
+    font-weight: 500;
+    display: flex;
+    padding: 3px 5px;
+    justify-content: space-between;
+}
+
+.menu-description {
+    padding: 5px;
+    font-size: 16px;
+}
+
+.description {
+    line-height: 1.55em;
+}
+
+.delivery-fee {
+    display: flex;
+    padding-top: 18px;
+    justify-content: center;
+    align-self: center;
+}

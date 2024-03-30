@@ -1,0 +1,30 @@
+.about {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 8em;
+    padding-bottom: 8em;
+}
+
+.about-intro {
+    max-width: 600px;
+}
+
+.about-image {
+    display: inherit;
+    position: relative;
+    justify-content: center;
+    margin-right: 1em;
+}
+
+#chef1 {
+    position: absolute;
+    height: 300px;
+    width: 250px;
+    z-index: 3;
+}
+
+#chef4 {
+    height: 300px;
+    width: 250px;
+    z-index: 2;
+}

@@ -1,0 +1,25 @@
+.testimonial-section {
+    padding-top: 5rem;
+}
+
+.testimonial-title {
+    font-size: 2.5em;
+    font-weight: 350;
+    padding-bottom: 1.5em;
+    letter-spacing: .4rem;
+    text-align: center;
+}
+
+.sub-testimonial {
+    font-size: 1.5em;
+    font-weight: 300;
+    padding-bottom: 1.5rem;
+    letter-spacing: .4rem;
+    text-align: center;
+}
+
+.review {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
