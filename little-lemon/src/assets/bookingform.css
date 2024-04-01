@@ -1,0 +1,16 @@
+.booking-page {
+    padding-top: 8rem;
+    padding-bottom: 8rem;
+}
+
+.booking-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.book-form {
+    border: 1px solid #e0e0e0;
+    min-width: 500px;
+}

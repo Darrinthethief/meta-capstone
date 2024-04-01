@@ -1,5 +1,5 @@
 import "../assets/testimonials.css";
-import ReviewCard from "./ReviewCards";
+import ReviewCard from "./ReviewsCards";
 
 const Testimonials = () => {
     return (

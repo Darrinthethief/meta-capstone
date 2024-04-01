@@ -1,0 +1,27 @@
+.confirm-section {
+    padding-top: 10em;
+    padding-bottom: 10em;
+}
+
+.confirmed {
+    display: flex;
+    flex-direction: column;
+}
+
+.confirm-title {
+    font-size: 2.5em;
+    font-weight: 400;
+    text-align: center;
+    padding-bottom: 1.5rem;
+}
+
+.sub-confirm {
+    font-size: 1.75em;
+    font-weight: 300;
+    text-align: center;
+}
+
+#home-button {
+    margin-left: auto;
+    margin-right: auto;
+}

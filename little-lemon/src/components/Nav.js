@@ -1,11 +1,12 @@
-import React from 'react';
+import { Link } from "react-router-dom";
+import navLogo from "../logo/Logo.svg";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faBars, faTimes } from '@fortawesome/free-solid-svg-icons'
-import navLogo from "../logo/Logo.svg";
+import { useState } from "react";
 import "../assets/nav.css";
-import { useState } from 'react';
 
 const Nav = () => {
+
     const [isActive, setIsActive] = useState(false);
 
     const toggleNav = () => {
@@ -20,18 +21,20 @@ const Nav = () => {
     return (
         <div id="nav-bar">
             <nav>
-                <img src={navLogo}
+                <Link to="/">
+                    <img src={navLogo}
                     id="nav-logo"
                     alt="Little Lemon Logo"
-                />
+                    />
+                </Link>
 
                 <ul className={`nav-list ${ isActive ? 'active' : ''}`}>
-                    <li><a href="/" onClick={resetNav}>Home</a></li>
-                    <li><a href="/" onClick={resetNav}>About</a></li>
-                    <li><a href="/" onClick={resetNav}>Menu</a></li>
-                    <li><a href="/" onClick={resetNav}>Reservations</a></li>
-                    <li><a href="/" onClick={resetNav}>Contact Us</a></li>
-                    <li><a href="/" onClick={resetNav}>Log In</a></li>
+                    <li><Link to="/" onClick={resetNav}>Home</Link></li>
+                    <li><Link to="/" onClick={resetNav}>About</Link></li>
+                    <li><Link to="/" onClick={resetNav}>Menu</Link></li>
+                    <li><Link to="/reservation" onClick={resetNav}>Reservations</Link></li>
+                    <li><Link to="/" onClick={resetNav}>Contact Us</Link></li>
+                    <li><Link to="/" onClick={resetNav}>Log In</Link></li>
                 </ul>
 
                 <div id="nav-menu" onClick={toggleNav}>
