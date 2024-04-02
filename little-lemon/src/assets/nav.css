@@ -47,12 +47,30 @@ nav {
     }
 
     .active {
-        display: block;
+        display: flex;
+        flex-direction: column;
         position: absolute;
+        top: 90px;
+        background: linear-gradient(90deg, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 1) 100%);
+        width: 100%;
+        right: 0;
         align-items: center;
-        justify-content: center;
-        text-align: center;
-        height: 100%;
-        border: 1px solid black;
+        transition: all 0.5s ease-in-out;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+    }
+
+    .active li {
+        margin-bottom: 2.2rem;
+    }
+
+    .active a {
+        color: #fff;
+        font-size: 1.3rem;
+        padding-bottom: 2rem;
+    }
+
+    .active a:hover {
+        color: #F4CE14;
     }
 }

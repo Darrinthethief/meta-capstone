@@ -20,7 +20,7 @@ const About = () => {
                     of shared experiences. Discover why Little Lemon is more than just a restaurant.
                 </p>
             </section>
-            <section>
+            <section className="image-section">
                 <div className="about-image">
                     <img
                         src={chef1}

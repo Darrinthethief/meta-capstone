@@ -25,11 +25,11 @@ const BookingPage = ({availableTimes, dispatch, submitForm}) => {
 
         <div className="booking-page">
             <section className="booking-form">
-                <h2>Little Lemon Booking</h2>
+                <h2 className="booking-page-title">Little Lemon Booking</h2>
 
                 <div className="form">
                     <form className="book-form" onSubmit={handleSubmit}>
-                        <div>
+                        <div className="form-input">
                             <label htmlFor="name">Name</label><br/>
                             <input
                                 type="text"
@@ -41,7 +41,7 @@ const BookingPage = ({availableTimes, dispatch, submitForm}) => {
                                 required
                             />
                         </div>
-                        <div>
+                        <div className="form-input">
                             <label htmlFor="phone">Phone</label><br/>
                             <input
                                 type="tel"
@@ -53,7 +53,7 @@ const BookingPage = ({availableTimes, dispatch, submitForm}) => {
                                 required
                             />
                         </div>
-                        <div>
+                        <div className="form-input">
                             <label htmlFor="date">Date</label><br/>
                             <input
                                 type="date"
@@ -64,7 +64,7 @@ const BookingPage = ({availableTimes, dispatch, submitForm}) => {
                                 required
                             />
                         </div>
-                        <div>
+                        <div className="form-input">
                             <label htmlFor="res-time">Time</label>
                         </div>
                         <div>
@@ -75,8 +75,10 @@ const BookingPage = ({availableTimes, dispatch, submitForm}) => {
                                 })}
                             </select>
                         </div>
-                        <div>
+                        <div className="form-input">
                             <label htmlFor="guests">Number of Guest</label><br/>
+                        </div>
+                        <div>
                             <input
                                 type="number"
                                 id="guests"
@@ -89,7 +91,7 @@ const BookingPage = ({availableTimes, dispatch, submitForm}) => {
                                 required
                             />
                         </div>
-                        <div>
+                        <div className="form-input">
                             <label htmlFor="occassion">Occasion</label>
                         </div>
                         <div>
@@ -101,7 +103,7 @@ const BookingPage = ({availableTimes, dispatch, submitForm}) => {
                                 <option value="other">Other</option>
                             </select>
                         </div>
-                        <div>
+                        <div className="form-input">
                             <label htmlFor="comments">Comments</label>
                         </div>
                         <div>
@@ -117,7 +119,7 @@ const BookingPage = ({availableTimes, dispatch, submitForm}) => {
                             >
                             </textarea>
                         </div>
-                        <button type="submit">Book Now</button>
+                        <button id="book" type="submit">Book Now</button>
                     </form>
                 </div>
             </section>

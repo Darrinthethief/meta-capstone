@@ -1,6 +1,8 @@
 .confirm-section {
     padding-top: 10em;
-    padding-bottom: 10em;
+    padding-bottom: 12em;
+    background: linear-gradient(90deg, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 0.7) 100%), url(../images/reservation.png);
+    color: #FFF;
 }
 
 .confirmed {
@@ -12,16 +14,29 @@
     font-size: 2.5em;
     font-weight: 400;
     text-align: center;
-    padding-bottom: 1.5rem;
+    padding-bottom: 2rem;
+    color: #F4CE14;
 }
 
 .sub-confirm {
     font-size: 1.75em;
     font-weight: 300;
     text-align: center;
+    padding-bottom: 2rem;
 }
 
 #home-button {
     margin-left: auto;
     margin-right: auto;
+    font-size: 22px;
+    margin-top: 1rem;
+    padding: 4px;
+    font-weight: 500;
+    background-color: #F4CE14;
+}
+
+#home-button a {
+    color: #000;
+    letter-spacing: .4rem;
+    border-radius: 10px;
 }

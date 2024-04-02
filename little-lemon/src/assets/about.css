@@ -3,10 +3,24 @@
     justify-content: space-around;
     padding-top: 8em;
     padding-bottom: 8em;
+    gap: 1em;
+    padding-right: 1em;
+    padding-left: 1em;
+}
+
+.about-title {
+    font-size: 2.5em;
+    font-weight: 350;
+    padding-bottom: 1.5em;
+    letter-spacing: .4rem;
 }
 
 .about-intro {
     max-width: 600px;
+    line-height: 2rem;
+    padding-bottom: 1.4rem;
+    font-weight: 400;
+    font-size: 1em;
 }
 
 .about-image {
@@ -27,4 +41,17 @@
     height: 300px;
     width: 250px;
     z-index: 2;
+    margin: 40px 120px;
+}
+
+@media screen and (max-width: 768px) {
+    .about {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .image-section {
+        margin-left: auto;
+        margin-right: auto;
+    }
 }
