@@ -1,7 +1,7 @@
 import "../assets/bookingform.css";
 import { useState } from "react";
 
-const BookingPage = ({availableTimes, dispatch, submitForm}) => {
+const BookingForm = ({availableTimes, dispatch, submitForm}) => {
 
     const [name, setName] = useState("");
     const [phone, setPhone] = useState("");
@@ -95,7 +95,7 @@ const BookingPage = ({availableTimes, dispatch, submitForm}) => {
                             <label htmlFor="occassion">Occasion</label>
                         </div>
                         <div>
-                            <select id="occasion" key={occasion} value={occasion} onChange={e => setOccasion(e.target.value)} required>
+                            <select id="occassion" value={occasion} onChange={e => setOccasion(e.target.value)} required>
                                 <option>Select Occasion</option>
                                 <option value="anniversary">Anniversary</option>
                                 <option value="birthday">Birthday</option>
@@ -127,4 +127,4 @@ const BookingPage = ({availableTimes, dispatch, submitForm}) => {
     );
 };
 
-export default BookingPage;
+export default BookingForm;
